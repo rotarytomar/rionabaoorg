@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abraçar o Rio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav>
+      <h2>Abraçar o Rio Nabão</h2>
+      <a href="#participar">Participar</a>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Um rio vivo aproxima comunidades.</h1>
+      <p>Um projeto de educação, ambiente e cidadania ligado ao rio Nabão e às pessoas que o habitam.</p>
+      <button onclick="scrollToSection()">Quero participar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Sobre o projeto</h2>
+      <p>
+        O “Abraçar o Rio” promove atividades ambientais, educativas e culturais,
+        envolvendo escolas, famílias, instituições e voluntários.
+      </p>
+    </section>
+
+    <section class="image-showcase">
+      <img src="Foto base.png" alt="Imagem do projeto Abraçar o Rio" />
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Educação Ambiental</h3>
+        <p>Sensibilização para a proteção dos rios e ecossistemas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Comunidade</h3>
+        <p>Atividades com participação de cidadãos e entidades locais.</p>
+      </div>
+
+      <div class="card">
+        <h3>Ação no Terreno</h3>
+        <p>Iniciativas junto ao rio, com limpeza, observação e valorização ambiental.</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+  <h2>Galeria</h2>
+  <div class="gallery-grid">
+    <img src="ansiao-anfiteatro.jpg" alt="Anfiteatro de Alunos">
+    <img src="marco-rotario-tomar.jpg" alt="Marco Rotário">
+    <img src="ourem-formacao.jpg" alt="Fonte Grande Ourém">
+  </div>
+</section>
+
+    <section id="participar" class="participar">
+      <h2>Participa</h2>
+      <p>Junta-te a esta iniciativa e ajuda-nos a cuidar do rio.</p>
+
+      <form>
+        <input type="text" placeholder="Nome" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="Mensagem"></textarea>
+        <button type="button" onclick="enviarFormulario()">Enviar inscrição</button>
+      </form>
+
+      <p id="resposta"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Abraçar o Rio · Rotary</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
