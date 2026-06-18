@@ -11,16 +11,12 @@ body {
 }
 
 .hero {
-  min-height: 90vh;
-  background:
-    linear-gradient(rgba(0, 40, 70, 0.45), rgba(0, 40, 70, 0.45)),
-    url("AbracarTomar.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 30px 8%;
+    min-height: 90vh;
+    background:
+      linear-gradient(rgba(0,40,70,0.45), rgba(0,40,70,0.45)),
+      url("abracar-rio-tomar.jpg");
+    background-size: cover;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
