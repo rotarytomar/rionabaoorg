@@ -19,7 +19,7 @@ body {
 .hero {
   min-height: 90vh;
   background:
-    linear-gradient(rgba(0, 25, 45, 0.25), rgba(0, 25, 45, 0.25)),
+    linear-gradient(rgba(0, 35, 60, 0.10), rgba(0, 35, 60, 0.10)),
     url("abracar-rio-tomar.jpg");
   background-size: cover;
   background-position: center;
