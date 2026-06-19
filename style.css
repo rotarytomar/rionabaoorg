@@ -19,7 +19,7 @@ body {
 .hero {
   min-height: 90vh;
   background:
-    linear-gradient(rgba(0, 35, 60, 0.25), rgba(0, 35, 60, 0.35)),
+    linear-gradient(rgba(0, 25, 45, 0.25), rgba(0, 25, 45, 0.25)),
     url("abracar-rio-tomar.jpg");
   background-size: cover;
   background-position: center;
@@ -293,4 +293,36 @@ padding: 60px 6%;
 .hero {
 padding: 24px 6%;
 }
+}
+nav h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+nav a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 24px;
+  max-width: 780px;
+  margin-bottom: 26px;
+}
+
+.hero button,
+.hero .button {
+  font-size: 18px;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #00a6a6;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 70px;
+  line-height: 1.05;
+  max-width: 760px;
 }
