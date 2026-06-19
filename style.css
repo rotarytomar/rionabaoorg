@@ -1,19 +1,20 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-font-family: Arial, sans-serif;
-color: #17324d;
-background: #f3fbff;
-line-height: 1.6;
+  font-family: Arial, sans-serif;
+  color:#17324d;
+  background:#f3fbff;
+  line-height: 1.6;
 }
+
 
 .hero {
 min-height: 95vh;
@@ -99,14 +100,12 @@ margin-bottom: 34px;
 .button {
 display: inline-block;
 text-decoration: none;
-border: none;
 background: #00a6a6;
 color: white;
 padding: 15px 28px;
 border-radius: 30px;
 font-size: 16px;
 font-weight: bold;
-cursor: pointer;
 }
 
 .button {
@@ -162,10 +161,6 @@ color: #007c89;
 font-size: 24px;
 }
 
-.card p {
-font-size: 17px;
-}
-
 .rio {
 display: grid;
 grid-template-columns: 1.4fr 0.8fr;
@@ -183,17 +178,7 @@ box-shadow: 0 12px 35px rgba(0,0,0,0.08);
 
 .rio-box h3 {
 color: #007c89;
-font-size: 28px;
 margin-bottom: 18px;
-}
-
-.rio-box ul {
-padding-left: 20px;
-}
-
-.rio-box li {
-margin-bottom: 12px;
-font-size: 17px;
 }
 
 .municipios {
@@ -215,7 +200,6 @@ border-radius: 22px;
 font-size: 20px;
 font-weight: bold;
 color: #007c89;
-border: 1px solid #cceeee;
 }
 
 .gallery {
@@ -256,9 +240,7 @@ text-align: center;
 
 .contactos p {
 max-width: 850px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 30px;
+margin: 0 auto 30px auto;
 }
 
 footer {
@@ -268,27 +250,14 @@ text-align: center;
 padding: 45px 8%;
 }
 
-footer p {
-margin-bottom: 8px;
-}
-
 .footer-small {
-margin-top: 16px;
 opacity: 0.8;
 }
 
 @media (max-width: 900px) {
 .navbar {
-align-items: flex-start;
 flex-direction: column;
-}
-
-.menu {
-gap: 14px;
-}
-
-.hero-content {
-margin-top: 110px;
+align-items: flex-start;
 }
 
 .cards,
@@ -300,22 +269,22 @@ grid-template-columns: 1fr;
 .municipios-grid {
 grid-template-columns: repeat(2, 1fr);
 }
+
+.hero-content {
+margin-top: 110px;
+}
 }
 
 @media (max-width: 520px) {
+.municipios-grid {
+grid-template-columns: 1fr;
+}
+
 section {
 padding: 60px 6%;
 }
 
 .hero {
 padding: 24px 6%;
-}
-
-.subtitle {
-font-size: 20px;
-}
-
-.municipios-grid {
-grid-template-columns: 1fr;
 }
 }
