@@ -17,10 +17,15 @@ body {
 
 
 .hero {
-min-height: 95vh;
-background:
-linear-gradient(rgba(0, 35, 60, 0.55), rgba(0, 35, 60, 0.55)),
-url("abracar-rio-tomar.jpg");
+  min-height: 90vh;
+  background:
+    linear-gradient(rgba(0, 35, 60, 0.25), rgba(0, 35, 60, 0.35)),
+    url("abracar-rio-tomar.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 28px 8%;
+}
 background-size: cover;
 background-position: center;
 color: white;
@@ -45,7 +50,7 @@ font-size: 22px;
 }
 
 .logo span {
-font-size: 14px;
+  font-size: 16px;
 opacity: 0.85;
 }
 
@@ -59,7 +64,7 @@ flex-wrap: wrap;
 color: white;
 text-decoration: none;
 font-weight: bold;
-font-size: 15px;
+font-size: 17px;
 }
 
 .menu a {
@@ -92,8 +97,9 @@ margin-bottom: 26px;
 }
 
 .subtitle {
-font-size: 24px;
+font-size: 28px;
 max-width: 760px;
+font-weight: 500;
 margin-bottom: 34px;
 }
 
