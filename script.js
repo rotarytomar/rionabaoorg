@@ -1,10 +1,13 @@
-function scrollToSection() {
-  document.getElementById("participar").scrollIntoView({
-    behavior: "smooth"
-  });
-}
+const menuToggle = document.querySelector(".menu-toggle");
+const mainNav = document.querySelector(".main-nav");
+const navLinks = document.querySelectorAll(".main-nav a");
 
-function enviarFormulario() {
-  document.getElementById("resposta").innerHTML =
-    "Obrigado! A tua inscrição de teste foi registada.";
-}
+menuToggle.addEventListener("click", () => {
+  mainNav.classList.toggle("active");
+});
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    mainNav.classList.remove("active");
+  });
+});

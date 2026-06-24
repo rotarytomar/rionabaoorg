@@ -1,82 +1,225 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abraçar o Rio</title>
+
+  <title>Abraçar o Rio | Rio Nabão</title>
+
+  <meta name="description" content="Abraçar o Rio é um projeto de valorização ambiental, cultural e educativa do Rio Nabão, envolvendo municípios, escolas, Rotary e comunidades locais." />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <header class="hero">
-    <nav>
-      <h2>Abraçar o Rio Nabão</h2>
-      <a href="#participar">Participar</a>
-    </nav>
+  <header class="site-header">
+    <div class="container header-content">
+     <a href="index.html" class="logo">
+     <img src="imagens/logo.png" alt="Abraçar o Rio" class="logo-img">
+      </a>
 
-    <div class="hero-content">
-      <h1>Um rio vivo aproxima comunidades.</h1>
-      <p>Um projeto de educação, ambiente e cidadania ligado ao rio Nabão e às pessoas que o habitam.</p>
-      <button onclick="scrollToSection()">Quero participar</button>
+      <button class="menu-toggle" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav class="main-nav">
+        <a href="#inicio">Início</a>
+        <a href="#projeto">O Projeto</a>
+        <a href="#rio">Rio Nabão</a>
+        <a href="#territorio">Território</a>
+        <a href="#atividades">Atividades</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#parceiros">Parceiros</a>
+        <a href="#contactos">Contactos</a>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Sobre o projeto</h2>
-      <p>
-        O “Abraçar o Rio” promove atividades ambientais, educativas e culturais,
-        envolvendo escolas, famílias, instituições e voluntários.
-      </p>
-    </section>
 
-    <section class="image-showcase">
-      <img src="Foto base.png" alt="Imagem do projeto Abraçar o Rio" />
-    </section>
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
 
-    <section class="cards">
-      <div class="card">
-        <h3>Educação Ambiental</h3>
-        <p>Sensibilização para a proteção dos rios e ecossistemas.</p>
-      </div>
+      <div class="container hero-content">
+        <p class="eyebrow">Projeto ambiental, educativo e cultural</p>
+        <h1>O Rio Somos Todos</h1>
+        <p class="hero-text">
+          Valorizar, conhecer e proteger o Rio Nabão, unindo comunidades, escolas e municípios em torno de um património natural e cultural.
+        </p>
 
-      <div class="card">
-        <h3>Comunidade</h3>
-        <p>Atividades com participação de cidadãos e entidades locais.</p>
-      </div>
-
-      <div class="card">
-        <h3>Ação no Terreno</h3>
-        <p>Iniciativas junto ao rio, com limpeza, observação e valorização ambiental.</p>
+        <div class="hero-actions">
+          <a href="#projeto" class="btn btn-primary">Conhecer o Projeto</a>
+          <a href="#rio" class="btn btn-secondary">Descobrir o Rio Nabão</a>
+        </div>
       </div>
     </section>
 
-    <section class="gallery">
-  <h2>Galeria</h2>
-  <div class="gallery-grid">
-    <img src="ansiao-anfiteatro.jpg" alt="Anfiteatro de Alunos">
-    <img src="marco-rotario-tomar.jpg" alt="Marco Rotário">
-    <img src="ourem-formacao.jpg" alt="Fonte Grande Ourém">
-  </div>
-</section>
+    <section id="projeto" class="section section-light">
+      <div class="container two-columns">
+        <div>
+          <p class="section-label">O Projeto</p>
+          <h2>Abraçar o Rio Nabão</h2>
+          <p>
+            O projeto Abraçar o Rio nasceu com o objetivo de aproximar as
+            comunidades do Rio Nabão, promovendo o conhecimento, a valorização
+            ambiental, a educação cívica e a preservação do património natural
+            e cultural associado ao seu percurso.
+          </p>
+          <p>
+            É uma iniciativa que envolve clubes rotários, municípios, freguesias,
+            escolas, instituições e cidadãos.
+          </p>
+        </div>
 
-    <section id="participar" class="participar">
-      <h2>Participa</h2>
-      <p>Junta-te a esta iniciativa e ajuda-nos a cuidar do rio.</p>
-
-      <form>
-        <input type="text" placeholder="Nome" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Mensagem"></textarea>
-        <button type="button" onclick="enviarFormulario()">Enviar inscrição</button>
-      </form>
-
-      <p id="resposta"></p>
+        <div class="image-card">
+          <img src="imagens/projeto.jpg" alt="Projeto Abraçar o Rio" />
+        </div>
+      </div>
     </section>
+
+    <section id="rio" class="section">
+      <div class="container">
+        <div class="section-intro">
+          <p class="section-label">Rio Nabão</p>
+          <h2>Um rio com história, natureza e identidade</h2>
+          <p>
+            O Nabão nasce no concelho de Ansião e percorre cerca de 63km de territórios de grande
+            riqueza natural, histórica e cultural até desaguar no rio Zêzere, na sua foz no concelho de Tomar.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Nascente</h3>
+            <p>É nos Olhos de Água, em Ansião. Tem outras nascentes como o Agroal, em Ourém, ou a Mendacha, em Tomar.</p>
+          </article>
+
+          <article class="card">
+            <h3>Percurso</h3>
+            <p>O rio atravessa vários concelhos, ligando paisagens, povoações, memórias e tradições.</p>
+          </article>
+
+          <article class="card">
+            <h3>Património</h3>
+            <p>Olhos e Fontes; açudes, valas e levadas; rodas e noras; pontes; moinhos e fábricas.</p>
+          </article>
+
+          <article class="card">
+            <h3>Ecossistema</h3>
+            <p>O Nabão é habitat de espécies vegetais e animais que importa conhecer e proteger.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="territorio" class="section section-green">
+      <div class="container">
+        <div class="section-intro">
+          <p class="section-label">Território</p>
+          <h2>Cinco municípios ligados pelo rio</h2>
+          <p>
+            O projeto valoriza o Nabão como elemento agregador de território,
+            identidade e cooperação intermunicipal. Nasce em Ansião, estabelece a ligação entre Pombal e Alvaiázere em parte do seu percurso e segue depois por Ourém e Tomar, até à sua foz.
+          </p>
+        </div>
+
+        <div class="territory-list">
+          <span>Ansião</span>
+          <span>Pombal</span>
+          <span>Alvaiázere</span>
+          <span>Ourém</span>
+          <span>Tomar</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="atividades" class="section section-light">
+      <div class="container two-columns reverse">
+        <div class="image-card">
+          <img src="imagens/atividades.jpg" alt="Atividades do projeto Abraçar o Rio" />
+        </div>
+
+        <div>
+          <p class="section-label">Atividades</p>
+          <h2>Educar, participar e agir</h2>
+          <p>
+            O Abraçar o Rio promove ações educativas, encontros com escolas,
+            caminhadas, iniciativas ambientais, momentos culturais e atividades
+            de sensibilização junto das comunidades locais.
+          </p>
+
+          <ul class="check-list">
+            <li>Ações com escolas, professores e alunos</li>
+            <li>Atividades ambientais e comunitárias</li>
+            <li>Valorização do património ribeirinho</li>
+            <li>Promoção da cidadania ativa</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section">
+      <div class="container">
+        <div class="section-intro">
+          <p class="section-label">Galeria</p>
+          <h2>Imagens do rio e das comunidades</h2>
+          <p>
+            A galeria reunirá fotografias e vídeos do Nabão, das atividades,
+            dos municípios, das freguesias e dos momentos mais marcantes do projeto.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="imagens/rio-nabao.jpg" alt="Rio Nabão" />
+          <img src="imagens/territorio.jpg" alt="Território do Rio Nabão" />
+          <img src="imagens/galeria.jpg" alt="Galeria Abraçar o Rio" />
+        </div>
+      </div>
+    </section>
+
+    <section id="parceiros" class="section section-blue">
+      <div class="container">
+        <div class="section-intro">
+          <p class="section-label">Parceiros</p>
+          <h2>Uma rede em torno do Nabão</h2>
+          <p>
+            O projeto conta com o envolvimento de municípios, freguesias,
+            escolas, Rotary Clubs, instituições e cidadãos.
+          </p>
+        </div>
+
+        <div class="partner-box">
+          <p>
+            Espaço reservado para logótipos dos parceiros institucionais,
+            municípios, Rotary, escolas e entidades associadas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactos" class="section section-light">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">Contactos</p>
+          <h2>Participar no projeto</h2>
+          <p>
+            Para colaborar, propor atividades, enviar fotografias ou obter mais
+            informação sobre o projeto 'Abraçar o Rio', envie-nos uma mensagem.
+          </p>
+        </div>
+
+        <a href="mailto:rctomarcidade@gmail.com" class="btn btn-primary">rctomarcidade@gmail.com</a>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>© 2025 Abraçar o Rio · Rotary</p>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Abraçar o Rio · Nabão, Rotary Club Tomar Cidade</p>
+      <p>Projeto de valorização ambiental, cultural e educativa.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
